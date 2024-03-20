@@ -1,0 +1,60 @@
+#include "pch.h"
+#include <iostream>
+#include <stack>
+using namespace std;
+stack <int> inserir(stack<int> p)
+{
+	int aux;
+	printf("\n Introduza o valor \n");
+	scanf_s("%d", &aux);
+	p.push(aux);
+	return p;
+}
+void listar(stack<int> p)
+{
+	if (p.size() == 0)
+	{
+		printf("\n pilha vazia\n");
+	}
+	else
+	{
+		while (!p.empty());
+		{
+			printf("valor-> %d", p.top());
+			p.pop();
+		}
+	}
+}
+
+int main()
+{
+	stack <int> pilha;
+	int opcao;
+	do 
+	{
+		printf("\n---Menu---\n");
+		printf("1- Inserir \n");
+		printf("2- Listar \n");
+		printf("9- Sair \n");
+		printf("Introduza a opcao \n");
+		scanf_s("%d", &opcao);
+		switch (opcao)
+		{
+		case 1:
+		{
+			pilha = inserir(pilha);
+
+		}
+		case 2:
+		{
+			listar(pilha);
+
+		}
+		default:
+			printf("Opcao Invalida\n");
+			break;
+		}
+
+	} while (opcao != 9);
+
+}

@@ -1,0 +1,7 @@
+﻿  ConsoleApplication1.cpp
+c:\users\psb212318\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\consoleapplication1.cpp(11): error C2146: syntax error: missing ';' before identifier 'scanf_s'
+c:\users\psb212318\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\consoleapplication1.cpp(11): error C2065: 'x': undeclared identifier
+c:\users\psb212318\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\consoleapplication1.cpp(13): error C2146: syntax error: missing ';' before identifier 'scanf_s'
+c:\users\psb212318\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\consoleapplication1.cpp(13): error C2065: 'y': undeclared identifier
+c:\users\psb212318\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\consoleapplication1.cpp(14): error C2065: 'z': undeclared identifier
+c:\users\psb212318\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\consoleapplication1.cpp(16): error C2146: syntax error: missing ';' before identifier 'getchar'
