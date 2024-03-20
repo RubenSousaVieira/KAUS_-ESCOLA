@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas em Html</title>
+</head>
+<body>
+    <h1>Listas em HTML</h1>
+
+    <h2>Listas nao ordenadas</h2>
+    <ul>
+        <li>Portugal</li>
+        <li>Espanha</li>
+        <li>Italia</li>
+        <li>Alemnha</li>
+    </ul>
+    <ul style="list-style-type: square;">
+        <li>Portugal</li>
+        <li>Espanha</li>
+        <li>Italia</li>
+        <li>Alemnha</li>
+    </ul>
+    <p>Opções: disc, circle, square, none</p>
+    <h2>Listas ordenadas</h2>
+    <ol>
+        <li>Portugal</li>
+        <li>Espanha</li>
+        <li>Italia</li>
+        <li>Alemnha</li>
+    </ol>
+    <ol type="I">
+        <li>Portugal</li>
+        <li>Espanha</li>
+        <li>Italia</li>
+        <li>Alemnha</li>
+    </ol>
+    <p>Opções: 1, A, a, I, i</p>
+    <ol start="10">
+        <li>Portugal</li>
+        <li>Espanha</li>
+        <li>Italia</li>
+        <li>Alemnha</li>
+    </ol>
+    <h2>Listas aninhadas</h2>
+    <ul>
+        <ul>
+            <li>Portugal</li>
+            <li>Espanha</li>
+            <ul>
+                <li>Madrid</li>
+                <li>Barcelona</li>
+            </ul>
+        </li>
+        <li>Italia</li>
+        <li>Alemnha</li>
+    </ul>
+
+</body>
+</html>

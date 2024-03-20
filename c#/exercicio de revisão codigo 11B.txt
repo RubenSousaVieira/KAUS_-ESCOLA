@@ -1,0 +1,18 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		//exercicio de revisao codigo 11B
+		int num1, num2, resultado; //declarar variaveis
+		/*num1 = 10;
+		num2 = 20; */
+		Console.WriteLine("Por favor introduza o valor 1!");
+		num1 = Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine("Por favor introduza o valor 2!");
+		num2 = Convert.ToInt32(Console.ReadLine());
+		resultado = num2+ num1;
+		Console.WriteLine("O resultado da soma do valor " + num1 + " com valor " + num2 + " é igual a " + resultado.ToString());
+	}
+}

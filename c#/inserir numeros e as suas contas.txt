@@ -1,0 +1,51 @@
+using System;
+
+public class Program
+{
+    public static void Main()
+    {
+        //exercicio de revisao codigo 11B
+        int num1=0, num2=0, resultado; //declarar variaveis
+                                   //num1 = 10;
+                                   //num2 = 20;
+        String conta = "";
+        Console.WriteLine("---Menu de contas---");
+        Console.WriteLine("Qual a conta que pretende fazer? 1 - soma, 2 - subtração, 3 - multiplicação 4 -divisão");
+        conta = Console.ReadLine();
+        try
+        {
+            Console.WriteLine("Por favor introduza o valor 1!");
+            num1 = Convert.ToInt32(Console.ReadLine());
+        }
+        catch
+        {
+            Console.WriteLine("Ganda Nabo!!!!");
+        }
+        Console.WriteLine("Por favor introduza o valor 2!");
+        num2 = Convert.ToInt32(Console.ReadLine());
+        if (conta == "1")
+        {
+            resultado = num1 + num2;
+            Console.WriteLine("O resultado da soma do valor " + num1 + " com o valor " + num2 + " é igual a " + resultado);
+        }
+        else if (conta == "2")
+        {
+            resultado = num2 - num1;
+            Console.WriteLine("O resultado da subtração do valor " + num1 + " com o valor " + num2 + " é igual a " + resultado);
+        }
+        else if (conta == "3")
+        {
+            resultado = num2 * num1;
+            Console.WriteLine("O resultado da multiplicação do valor " + num1 + " com o valor " + num2 + " é igual a " + resultado);
+        }
+        else if (conta == "2")
+        {
+            resultado = num2 / num1;
+            Console.WriteLine("O resultado da divisão do valor " + num1 + " com o valor " + num2 + " é igual a " + resultado);
+        }
+        else
+        {
+            Console.WriteLine("Devias ter escolhido uma das opções entre 1 e 4");
+        }
+    }
+}

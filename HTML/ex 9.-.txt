@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blocos em Html</title>
+</head>
+<body>
+   <h1>Blocos em html</h1>
+
+   <h2>Elemento div</h2>
+   <p>O <strong>div</strong>permite usar o bloco como um contentor para outros elementos de HTML. São normalmente usados com CSS para obterem um design apelativo.</p>
+
+   <br>
+
+   <div style="background-color: #872793;width: 400px; height:100px"></div>
+
+   <h2>Elemnto span</h2>
+   <p>O span funciona como um contentor embutido para marcar uma parte de um texto por exemplo.</p>
+
+   <p>Neste paragrafo decidimos efetuar a <span style="background-color: #d4d365;" marcação de uma parte </span> do texto atravez do <strong>span</strong></strong>  </span></p>
+</body>
+</html>
