@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(255, 0, 0);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursiva;
+    font-family: 'Orelega Um', cursivo;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: #000000;
+}
+section{
+    display: -webkit-flex;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+a:active{
+    color: rgb(0, 255, 21);
+}
+a:visited{
+    color: rgb(0, 0, 0);
+}
+
+nav{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    font-family: 'Bebas Neue', cursive ;
+    background-color: #a89090;
+    color: #ffffff;
+    padding: 20px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+article{
+    -webkit-flex:3;
+    -ms-flex: 3;
+    flex:3;
+    background-color: #dbdbdb;
+    font-family: 'Bebas Neue', cursive ;
+    padding: 10px;
+}
+footer{
+    background-color: #807272;
+    font-family: 'Bebas Neue', cursive ;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+}
+@media (max-width: 600px){
+    section{
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
