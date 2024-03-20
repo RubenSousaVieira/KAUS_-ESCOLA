@@ -1,0 +1,108 @@
+0. Conceitos de Sistemas Operativos:
+O que significa CPU?
+c)	Unidade Central de Processamento X
+
+1.	Conceitos de Multiprocessamento:
+1.1	O que é o multiprocessamento?
+b)	A capacidade de um sistema operativo utilizar e coordenar simultaneamente múltiplos processadores ou núcleos para executar tarefas. X
+
+1.2	Quais são as vantagens do multiprocessamento?
+b)	Aumento do desempenho, melhor utilização dos recursos, maior capacidade de processamento. X
+
+1.3	Qual é uma desvantagem do multiprocessamento?
+c)	Complexidade de programação. X
+
+1.4	Como é dividido o multiprocessamento em termos de sistemas?
+b)	Existem dois modelos principais: Assimétrico (AP) e Simétrico (SP). X
+
+1.5	Qual é uma característica dos sistemas simétricos?
+b)	Todos os processadores realizam as mesmas funções. X
+
+1.6	O que caracteriza os sistemas assimétricos?
+b)	Cada processador tem uma função específica e pode haver um processador mestre. X
+
+2.	Conceitos de Processos, Threads e Prioridades:
+2.1	O que é um processo?
+a)	Um programa em execução com espaço de endereçamento próprio. X
+
+2.2	Quais são os estados de um processo?
+b)	Novo, Pronto, Execução, Bloqueado, Terminado. X
+
+2.3	O que armazena o Bloco de Controlo de Processo (PCB)?
+a)	Informações sobre o estado do processo, registos, ponteiro de programa, etc. X
+
+2.4	O que é um Bloco de Controlo de Processo (PCB)?
+c)	Armazena informações sobre o estado do processo. X
+
+2.5	O que é uma thread?
+b)	A menor unidade de execução num processo. X
+
+2.6	Qual é a principal diferença entre processos e threads?
+a)	Processos têm espaço de endereçamento próprio; threads compartilham o mesmo espaço de endereçamento. X
+
+2.7	Indique um exemplo de um algoritmo de escalonamento:
+b)	FIFO X
+
+2.8	Porque são atribuídas prioridades a processos/threads?
+a)	Para determinar a ordem de execução. X
+
+3.	Mecanismos de Comunicação entre Processos:
+3.1	O que são mecanismos de comunicação interprocessual (IPC)?
+c)	Mecanismos que permitem a comunicação e cooperação entre processos. X
+
+3.2	O que são Pipes, Sockets e Mensagens?
+b)	Canais de comunicação entre processos para transferência de dados. X
+
+3.3	Identifique mecanismos de sincronização para evitar conflitos de acesso a recursos compartilhados.
+a)	Semáforos e Mutex X
+
+3.4	Qual dos seguintes é um Mecanismo de Comunicação entre Processos?
+b)	Semáforos X
+
+3.5	Identifique os que são canais de comunicação entre processos para transferência de dados.
+h)	Todas as alíneas estão corretas. X
+
+3.6	Qual dos seguintes não é um mecanismo de comunicação entre processos?
+c)	Variáveis globais X
+
+3.7	Prioridades podem ser atribuídas a 	e 	.
+a)	Threads /  Processos X
+
+
+3.8	O que permite o Compartilhamento de Memória entre processos?
+b)	Permite que processos compartilhem áreas de memória para troca de dados. X
+
+3.9	O que são semáforos e mutex?
+a)	Mecanismos de sincronização para evitar conflitos de acesso a recursos compartilhados. X
+
+4.	Mecanismos de Sincronismo:
+4.1	Como o sincronismo de threads é controlado?
+b)	Barreiras e Locks controlam o acesso a secções críticas. X
+
+4.2	O que são Barreiras e Locks no contexto de sincronismo de threads?
+b)	Controlam o acesso a secções críticas. X
+
+4.3	O que envolve o sincronismo de processos?
+b)	Prevenção de deadlocks e uso de semáforos como mecanismo de sincronização. X
+
+5.	API de Programação de um Sistema Operativo:
+5.1	O que é a API de um Sistema Operativo?
+a)	Um conjunto de chamadas de sistema que permite a interação entre o software de aplicação e o sistema operativo. X
+
+
+5.2	O que significa API?
+b)	Application Programming Interface. X
+
+5.3	Identifique um exemplo de uma função comum em API de Sistemas Operativos:
+a)	Abertura de ficheiros. X
+
+5.4	Como a API Facilita o Desenvolvimento de Software?
+d)	Todas as alíneas estão corretas. X
+
+5.5	Qual é a função de uma API de sistemas operativos?
+d)	Facilitar a interação entre o software de aplicação e o sistema operativo. X
+
+
+
+
+
